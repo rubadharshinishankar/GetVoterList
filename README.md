@@ -20,16 +20,27 @@ Key Functions:
 
 How to Use:
 
-step 1:Ensure Node.js is installed on your machine.
+step1:Download pdf using the link :
 
-step 2:Install the required dependencies: 
+"https://voters.eci.gov.in/download-eroll"
+
+step2:Convert pdf to text file using Power Automate AI builder:
+
+"https://learn.microsoft.com/en-us/ai-builder/overview"
+
+"https://learn.microsoft.com/en-us/power-automate/use-ai-builder"
+
+step3 :Ensure Node.js is installed on your machine.
+
+step 4:Install the required dependencies: 
 
    npm install xlsx path
    
-step 3:Place your voter list file at the specified path.
+step 5:Place your voter list file at the specified path.
 
-step 4:Run the script using Node.js:
+step 6:Run the script using Node.js:
 
     node script.js
 
 This project provides a foundational script for parsing and organizing voter list data, making it easier to manage and analyze large datasets.
+
